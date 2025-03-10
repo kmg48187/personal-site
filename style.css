@@ -1,5 +1,9 @@
-header {background-color: rgba(2, 79, 2, 0.884);
+header {background-color: #1e381ee1;
     padding: 10px;
 color: antiquewhite;
 display: block;}
-body {background-color: rgba(70, 133, 70, 0.758);}
+body {background-color: rgba(67, 122, 67, 0.595);
+font-family:'Times New Roman', Times, serif;}
+h2 {text-decoration: underline;}
+h1 {background-color: antiquewhite; padding: 5px;}
+img{ width:px; float:inline-end; margin: 5px;}
