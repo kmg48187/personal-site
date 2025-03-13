@@ -1,12 +1,12 @@
 header {background-color: #1e381ee1;
     padding: 10px;
     color: antiquewhite;
-    display: block;}
+    display: block;
+    padding-left: 30px;}
 body {background-color: rgba(67, 122, 67, 0.595);
     font-family:'Times New Roman', Times, serif;}
 h2 {text-decoration: underline;}
 h1 {background-color: antiquewhite; padding: 5px; }
-img{float:inline-end; margin: 5px;}
     a:link, a:visited {color: antiquewhite;}
     a:hover{color: lightpink;}
 form{ color: antiquewhite; background-color:rgba(67, 122, 67, 0.595);
@@ -17,5 +17,15 @@ label{display:flex;
     justify-content: center;}
 /*footer{background-color: #1e381ee1;
     padding: 10px;
-    color: antiquewhite;}
-#message{height: 100px;}
+    color: antiquewhite;}*/
+    h3{text-decoration: underline;}
+    .Baking{grid-template-columns: 33% 33% 34%;
+            grid-template-rows: 50% 50%;}
+    .Hobbies{display:grid;
+            grid-template-columns: 66% 34%;
+            grid-template-rows: 34% 33% 33%;}
+            article{grid-column: 1/2; 
+            /*background-color:rgba(67, 122, 67, 0.595);*/}
+            img{grid-column: 2/3;
+                margin-left: 30px;}
+            
