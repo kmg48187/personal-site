@@ -6,6 +6,14 @@
     <link rel="stylesheet"
           href="style.css">
           <script src="javascript.js" defer></script>
+    <style> div{display:grid; 
+                grid-template-columns: 60% 40%;
+                grid-template-rows: 50% 50%;}
+                img{grid-column: 2/3;
+                grid-row: 1/2;
+                padding-left: 10vw;}    
+                /*already have proper image formatting in style sheet*/
+           </style>
     <title>Home</title>
 </head>
 <body>
@@ -16,10 +24,19 @@
             <a href="contact.html">Contact</a>
              </header>
     <h1 style="text-align: center;">Developer - Writer - Chef</h1>
-    <img alt="Kristen George profile picture"
-    src="Profile-pic.png">
-        <h3 style="padding-top: 20px; text-align: center;">Eager to work. Always ready to adapt and learn. </h3>
-        <h3 style="padding-top: 20px; text-align: center;">“A jack of all trades is a master of none, but often times better than a master of one.” - William Shakespeare</h3>
+    <div>  
+            <h3 style= "text-align: center; 
+            grid-column: 1/2; 
+            grid-row: 1/2;
+            margin-top: 50px;">Eager to work. Always ready to adapt and learn. </h3> <br>
+            <img alt="Kristen George profile picture"
+            src="Profile-pic.png">
+            <h3 style= "text-align:center;
+            grid-column: 1/2;
+            grid-row: 2;">“A jack of all trades is a master of none, but often times better than a master of one.” - William Shakespeare</h3>
+            
+          </div>
+    
        
 </body>
 </html>

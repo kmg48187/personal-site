@@ -1,8 +1,8 @@
 header {background-color: #1e381ee1;
-    padding: 10px;
-    color: antiquewhite;
-    display: block;
-    padding-left: 30px;}
+    padding: 5px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    color: antiquewhite;}
 body {background-color: rgba(67, 122, 67, 0.595);
     font-family:'Times New Roman', Times, serif;}
 h2 {text-decoration: underline;}
@@ -22,7 +22,7 @@ label{display:flex;
     .Baking{grid-template-columns: 33% 33% 34%;
             grid-template-rows: 50% 50%;}
     .Hobbies{display:grid;
-            grid-template-columns: 66% 34%;
+            grid-template-columns: 60% 40%;
             grid-template-rows: 34% 33% 33%;}
             article{grid-column: 1/2; 
             /*background-color:rgba(67, 122, 67, 0.595);*/}
